@@ -32,7 +32,7 @@ const populateDB = async () => {
 
   userModel.find({}, (err, users) => {
     if (users.length === 0) {
-      bulkAdd(USERS, userModel).then((docs) => {
+      bulkAdd(USERS, userModel, true).then((docs) => {
         console.log(`Added ${docs.length} users to the database`);
       });
     }
