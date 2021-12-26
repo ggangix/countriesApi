@@ -26,6 +26,8 @@ There is an initialData.js file in the root of the project. This file is used to
 
 ## Endpoints
 
+### Countries
+
 | method | path              | description            |
 | ------ | ----------------- | ---------------------- |
 | GET    | /countries        | Get all countries      |
@@ -33,6 +35,13 @@ There is an initialData.js file in the root of the project. This file is used to
 | PUT    | /countries/{code} | Update country by code |
 | DELETE | /countries/{code} | Delete country by code |
 | POST   | /countries        | Create new country     |
+
+### User
+
+    | method | path              | description            |
+    | ------ | ----------------- | ---------------------- |
+    | POST   | /users/register   | Create new user        |
+    | POST   | /users/login      | Login user             |
 
 ### Auxiliary parameters
 
