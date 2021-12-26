@@ -38,10 +38,10 @@ There is an initialData.js file in the root of the project. This file is used to
 
 ### User
 
-    | method | path              | description            |
-    | ------ | ----------------- | ---------------------- |
-    | POST   | /users/register   | Create new user        |
-    | POST   | /users/login      | Login user             |
+| method | path              | description            |
+| ------ | ----------------- | ---------------------- |
+| POST   | /users/register   | Create new user        |
+| POST   | /users/login      | Login user             |
 
 ### Auxiliary parameters
 
