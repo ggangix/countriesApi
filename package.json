@@ -4,8 +4,11 @@
   "description": "Countries api",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "mocha tests/*.js --exit",
-    "start": "nodemon server.js"
+    "lint": "npm run eslint -- --fix",
+    "eslint": "eslint --ext .js",
+    "prepare": "husky install"
   },
   "author": "Giuseppe Gangi",
   "license": "ISC",
